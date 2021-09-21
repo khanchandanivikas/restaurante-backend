@@ -60,11 +60,12 @@ Content-Type: application/json
 }
 
 ### modificar dato por su id
-PATCH http://localhost:5000/api/datos/6138c2c06df4b6ce291260f0 HTTP/1.1
+PATCH https://banderasapp.herokuapp.com/api/datos/6144bedcbe91d65719bba8a8 HTTP/1.1
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTQ0YmVkNGJlOTFkNjU3MTliYmE4YTQiLCJlbWFpbCI6InZpY3RvckBnbWFpbC5jb20iLCJpYXQiOjE2MzE5NzkzMjgsImV4cCI6MTYzMTk4MjkyOH0.gbtiKZzVDeFMbCynsh2XPGhDKt8Yag9ZbnJEUHWj00I
 
 {
-    "region": "tenerife"
+    "cp": 35200
 }
 
 
